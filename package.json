@@ -29,12 +29,12 @@
     "template"
   ],
   "license": "MIT",
-  "main": "scripts/serve.js",
   "scripts": {
-    "start": "npm run build:docs && node scripts/serve.js",
-    "build:docs": "yfm --input docs --output docs-html"
+    "start": "npx http-server ./dist -p 5005",
+    "build": "yfm --input docs --output dist --output-format html"
   },
   "dependencies": {
+    "@diplodoc/cli": "^4.55.0",
     "@doc-tools/docs": "^3.23.0",
     "chokidar": "^3.5.3",
     "express": "^4.18.2",
@@ -44,6 +44,5 @@
     "parse5": "^7.1.2",
     "parse5-utils": "^2.0.0",
     "serve-static": "^1.15.0"
-  },
-  "devDependencies": {}
+  }
 }
