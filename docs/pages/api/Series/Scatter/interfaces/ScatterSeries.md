@@ -1,0 +1,33 @@
+[API](../../../overview.md) / [Series/Scatter](../overview.md) / ScatterSeries
+
+Defined in: [src/types/chart/scatter.ts:34](https://github.com/gravity-ui/charts/blob/6aea3bcf86facdd4a019a7e612d7ac7e27006c35/src/types/chart/scatter.ts#L34)
+
+## Extends
+
+- [`BaseSeries`](../../General/interfaces/BaseSeries.md)
+
+## Type Parameters
+
+| Type Parameter | Default type |
+| ------ | ------ |
+| `T` | [`MeaningfulAny`](../../../Utilities/type-aliases/MeaningfulAny.md) |
+
+## Properties
+
+| Property | Type | Description |
+| ------ | ------ | ------ |
+| <a id="color"></a> `color?` | `string` | The main color of the series (hex, rgba) |
+| <a id="cursor"></a> `cursor?` | `string` | You can set the cursor to "pointer" if you have click events attached to the series, to signal to the user that the points and lines can be clicked. |
+| <a id="data"></a> `data` | [`ScatterSeriesData`](ScatterSeriesData.md)\<`T`\>[] | - |
+| <a id="datalabels"></a> `dataLabels?` | `object` | Options for the series data labels, appearing next to each data point. |
+| `dataLabels.allowOverlap?` | `boolean` | **Default** `false` |
+| `dataLabels.enabled?` | `boolean` | Enable or disable the data labels **Default** `true` |
+| `dataLabels.html?` | `boolean` | Allows to use any html-tags to display the content. The element will be displayed outside the box of the SVG element. **Default** `false` |
+| `dataLabels.padding?` | `number` | **Default** `5` |
+| `dataLabels.style?` | `Partial`\<[`BaseTextStyle`](../../General/interfaces/BaseTextStyle.md)\> | - |
+| <a id="legend"></a> `legend?` | [`ChartLegend`](../../../Configuration/interfaces/ChartLegend.md) & `object` | Individual series legend options. Has higher priority than legend options in widget data |
+| <a id="name"></a> `name` | `string` | The name of the series (used in legend, tooltip etc) |
+| <a id="symboltype"></a> `symbolType?` | `"circle"` \| `"diamond"` \| `"square"` \| `"triangle"` \| `"triangle-down"` | A predefined shape or symbol for the dot |
+| <a id="type"></a> `type` | `"scatter"` | - |
+| <a id="visible"></a> `visible?` | `boolean` | Initial visibility of the series |
+| <a id="yaxis"></a> `yAxis?` | `number` | Y-axis index (when using two axes) |

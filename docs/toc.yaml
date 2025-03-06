@@ -1,0 +1,222 @@
+title: ""
+href: index.yaml
+navigation:
+  logo:
+    url: /charts
+    dark:
+      icon: https://storage.yandexcloud.net/gravity-ui-assets/gravity-logo-dark.svg
+      text: Charts
+    light:
+      icon: https://storage.yandexcloud.net/gravity-ui-assets/gravity-logo-light.svg
+      text: Charts
+  header:
+    leftItems:
+      - text: Github ➚
+        type: link
+        url: https://github.com/gravity-ui/charts
+    rightItems:
+      - type: search
+      - type: controls
+items:
+  - name: Overview
+    href: ./pages/overview.md
+  - name: Get started
+    href: ./pages/get-started.md
+  - name: API
+    items:
+      - name: Overview
+        href: ./pages/api/overview.md
+      - name: Components
+        items:
+          - name: Overview
+            href: ./pages/api/Components/overview.md
+          - name: Chart
+            href: ./pages/api/Components/functions/Chart.md
+          - name: ChartDimentions
+            href: ./pages/api/Components/interfaces/ChartDimentions.md
+          - name: ChartOnResize
+            href: ./pages/api/Components/type-aliases/ChartOnResize.md
+          - name: ChartProps
+            href: ./pages/api/Components/interfaces/ChartProps.md
+          - name: ChartRef
+            href: ./pages/api/Components/interfaces/ChartRef.md
+          - name: ChartTooltipContent
+            href: ./pages/api/Components/functions/ChartTooltipContent.md
+          - name: ChartTooltipContentProps
+            href: ./pages/api/Components/interfaces/ChartTooltipContentProps.md
+      - name: Configuration
+        items:
+          - name: Overview
+            href: ./pages/api/Configuration/overview.md
+          - name: AxisPlotLine
+            href: ./pages/api/Configuration/interfaces/AxisPlotLine.md
+          - name: BaseLegendSymbol
+            href: ./pages/api/Configuration/interfaces/BaseLegendSymbol.md
+          - name: ChartAxis
+            href: ./pages/api/Configuration/interfaces/ChartAxis.md
+          - name: ChartAxisLabels
+            href: ./pages/api/Configuration/interfaces/ChartAxisLabels.md
+          - name: ChartAxisTitleAlignment
+            href: ./pages/api/Configuration/type-aliases/ChartAxisTitleAlignment.md
+          - name: ChartAxisType
+            href: ./pages/api/Configuration/type-aliases/ChartAxisType.md
+          - name: ChartData
+            href: ./pages/api/Configuration/interfaces/ChartData.md
+          - name: ChartLegend
+            href: ./pages/api/Configuration/interfaces/ChartLegend.md
+          - name: ChartMargin
+            href: ./pages/api/Configuration/interfaces/ChartMargin.md
+          - name: ChartOptions
+            href: ./pages/api/Configuration/interfaces/ChartOptions.md
+          - name: ChartSplit
+            href: ./pages/api/Configuration/interfaces/ChartSplit.md
+          - name: ChartTitle
+            href: ./pages/api/Configuration/interfaces/ChartTitle.md
+          - name: ChartTooltip
+            href: ./pages/api/Configuration/interfaces/ChartTooltip.md
+          - name: ChartTooltipRendererArgs
+            href: ./pages/api/Configuration/interfaces/ChartTooltipRendererArgs.md
+          - name: ChartXAxis
+            href: ./pages/api/Configuration/interfaces/ChartXAxis.md
+          - name: ChartYAxis
+            href: ./pages/api/Configuration/interfaces/ChartYAxis.md
+          - name: PathLegendSymbolOptions
+            href: ./pages/api/Configuration/interfaces/PathLegendSymbolOptions.md
+          - name: RectLegendSymbolOptions
+            href: ./pages/api/Configuration/interfaces/RectLegendSymbolOptions.md
+          - name: SplitPlotOptions
+            href: ./pages/api/Configuration/interfaces/SplitPlotOptions.md
+          - name: SymbolLegendSymbolOptions
+            href: ./pages/api/Configuration/interfaces/SymbolLegendSymbolOptions.md
+          - name: TooltipDataChunk
+            href: ./pages/api/Configuration/type-aliases/TooltipDataChunk.md
+          - name: TooltipDataChunkArea
+            href: ./pages/api/Configuration/interfaces/TooltipDataChunkArea.md
+          - name: TooltipDataChunkBarX
+            href: ./pages/api/Configuration/interfaces/TooltipDataChunkBarX.md
+          - name: TooltipDataChunkBarY
+            href: ./pages/api/Configuration/interfaces/TooltipDataChunkBarY.md
+          - name: TooltipDataChunkLine
+            href: ./pages/api/Configuration/interfaces/TooltipDataChunkLine.md
+          - name: TooltipDataChunkPie
+            href: ./pages/api/Configuration/interfaces/TooltipDataChunkPie.md
+          - name: TooltipDataChunkScatter
+            href: ./pages/api/Configuration/interfaces/TooltipDataChunkScatter.md
+          - name: TooltipDataChunkTreemap
+            href: ./pages/api/Configuration/interfaces/TooltipDataChunkTreemap.md
+          - name: TooltipDataChunkWaterfall
+            href: ./pages/api/Configuration/interfaces/TooltipDataChunkWaterfall.md
+      - name: Series
+        items:
+          - name: Area
+            items:
+              - name: Overview
+                href: ./pages/api/Series/Area/overview.md
+              - name: AreaMarkerOptions
+                href: ./pages/api/Series/Area/interfaces/AreaMarkerOptions.md
+              - name: AreaMarkerSymbol
+                href: ./pages/api/Series/Area/type-aliases/AreaMarkerSymbol.md
+              - name: AreaSeries
+                href: ./pages/api/Series/Area/interfaces/AreaSeries.md
+              - name: AreaSeriesData
+                href: ./pages/api/Series/Area/interfaces/AreaSeriesData.md
+          - name: Bar-X
+            items:
+              - name: Overview
+                href: ./pages/api/Series/Bar-X/overview.md
+              - name: BarXSeries
+                href: ./pages/api/Series/Bar-X/interfaces/BarXSeries.md
+              - name: BarXSeriesData
+                href: ./pages/api/Series/Bar-X/interfaces/BarXSeriesData.md
+          - name: Bar-Y
+            items:
+              - name: Overview
+                href: ./pages/api/Series/Bar-Y/overview.md
+              - name: BarYSeries
+                href: ./pages/api/Series/Bar-Y/interfaces/BarYSeries.md
+              - name: BarYSeriesData
+                href: ./pages/api/Series/Bar-Y/interfaces/BarYSeriesData.md
+          - name: General
+            items:
+              - name: Overview
+                href: ./pages/api/Series/General/overview.md
+              - name: BaseSeries
+                href: ./pages/api/Series/General/interfaces/BaseSeries.md
+              - name: BaseSeriesData
+                href: ./pages/api/Series/General/interfaces/BaseSeriesData.md
+              - name: BaseTextStyle
+                href: ./pages/api/Series/General/interfaces/BaseTextStyle.md
+              - name: BasicHoverState
+                href: ./pages/api/Series/General/interfaces/BasicHoverState.md
+              - name: BasicInactiveState
+                href: ./pages/api/Series/General/interfaces/BasicInactiveState.md
+              - name: ChartSeries
+                href: ./pages/api/Series/General/type-aliases/ChartSeries.md
+              - name: ChartSeriesData
+                href: ./pages/api/Series/General/type-aliases/ChartSeriesData.md
+              - name: ChartSeriesOptions
+                href: ./pages/api/Series/General/interfaces/ChartSeriesOptions.md
+              - name: DataLabelRendererData
+                href: ./pages/api/Series/General/interfaces/DataLabelRendererData.md
+          - name: Line
+            items:
+              - name: Overview
+                href: ./pages/api/Series/Line/overview.md
+              - name: LineSeries
+                href: ./pages/api/Series/Line/interfaces/LineSeries.md
+              - name: LineSeriesData
+                href: ./pages/api/Series/Line/interfaces/LineSeriesData.md
+          - name: Pie
+            items:
+              - name: Overview
+                href: ./pages/api/Series/Pie/overview.md
+              - name: ConnectorCurve
+                href: ./pages/api/Series/Pie/type-aliases/ConnectorCurve.md
+              - name: ConnectorShape
+                href: ./pages/api/Series/Pie/type-aliases/ConnectorShape.md
+              - name: PieSeries
+                href: ./pages/api/Series/Pie/interfaces/PieSeries.md
+              - name: PieSeriesData
+                href: ./pages/api/Series/Pie/interfaces/PieSeriesData.md
+          - name: Scatter
+            items:
+              - name: Overview
+                href: ./pages/api/Series/Scatter/overview.md
+              - name: ScatterSeries
+                href: ./pages/api/Series/Scatter/interfaces/ScatterSeries.md
+              - name: ScatterSeriesData
+                href: ./pages/api/Series/Scatter/interfaces/ScatterSeriesData.md
+          - name: Treemap
+            items:
+              - name: Overview
+                href: ./pages/api/Series/Treemap/overview.md
+              - name: TreemapSeries
+                href: ./pages/api/Series/Treemap/interfaces/TreemapSeries.md
+              - name: TreemapSeriesData
+                href: ./pages/api/Series/Treemap/interfaces/TreemapSeriesData.md
+          - name: Visual
+            items:
+              - name: Overview
+                href: ./pages/api/Series/Visual/overview.md
+              - name: Halo
+                href: ./pages/api/Series/Visual/interfaces/Halo.md
+              - name: PointMarkerOptions
+                href: ./pages/api/Series/Visual/interfaces/PointMarkerOptions.md
+          - name: Waterfall
+            items:
+              - name: Overview
+                href: ./pages/api/Series/Waterfall/overview.md
+              - name: WaterfallSeries
+                href: ./pages/api/Series/Waterfall/interfaces/WaterfallSeries.md
+              - name: WaterfallSeriesData
+                href: ./pages/api/Series/Waterfall/interfaces/WaterfallSeriesData.md
+      - name: Utilities
+        items:
+          - name: Overview
+            href: ./pages/api/Utilities/overview.md
+          - name: FormatNumberOptions
+            href: ./pages/api/Utilities/interfaces/FormatNumberOptions.md
+          - name: FormatOptions
+            href: ./pages/api/Utilities/interfaces/FormatOptions.md
+          - name: MeaningfulAny
+            href: ./pages/api/Utilities/type-aliases/MeaningfulAny.md
